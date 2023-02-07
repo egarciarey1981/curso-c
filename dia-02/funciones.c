@@ -14,8 +14,8 @@ int suma(int x, int y)
 
 int main()
 {
-    int unNumero = 2;
-    int otroNumero = 3;
+    int unNumero = 3;
+    int otroNumero = 4;
 
     printf("El doble de %d es %d\n", unNumero, doble(unNumero));
     printf("La suma de %d y %d es %d\n", unNumero, otroNumero, suma(unNumero, otroNumero));
