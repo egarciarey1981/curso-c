@@ -1,1 +1,1 @@
-Códigos de ejemplo y ejercicios del curso que estoy dando a unos familiares.
+Códigos de ejemplo y ejercicios para el curso de C que estoy dando a unos familiares.
