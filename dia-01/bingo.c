@@ -4,7 +4,7 @@
 
 int main()
 {
-    // variables para el número aleatorio y el del jugador
+    // variables para el número aleatorio y del jugador
     int aleatorio;
     int numero;
 

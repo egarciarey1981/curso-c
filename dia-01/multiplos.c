@@ -2,7 +2,7 @@
 
 int main()
 {
-    int numero = 2;
+    int numero = 0;
 
     while (numero < 10)
     {
