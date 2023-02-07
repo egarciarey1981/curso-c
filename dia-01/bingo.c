@@ -27,7 +27,7 @@ int main()
         scanf("%d", &numero);
     }
 
-    // si estas aqui, has averiguado el número
+    // si esta aquí, ha averiguado el número
     printf("¡Bingo!\n");
 
     return 0;
