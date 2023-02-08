@@ -1,15 +1,8 @@
-#include <time.h>
-#include <stdlib.h>
 #include <stdio.h>
 
-void titulo()
+int doble(int a)
 {
-    printf("ARITMETICA\n");
-}
-
-int doble(int x)
-{
-    return x * 2;
+    return a * 2;
 }
 
 int suma(int x, int y)
@@ -17,14 +10,23 @@ int suma(int x, int y)
     return x + y;
 }
 
+void titulo()
+{
+    printf("ARITMETICA\n");
+}
+
 int main()
 {
     int unNumero = 3;
     int otroNumero = 4;
 
+    int elDoble = doble(unNumero);
+    int laSuma= suma(unNumero, otroNumero);
+
     titulo();
-    printf("El doble de %d es %d\n", unNumero, doble(unNumero));
-    printf("La suma de %d y %d es %d\n", unNumero, otroNumero, suma(unNumero, otroNumero));
+    printf("El doble de %d es %d\n", unNumero, elDoble);
+    printf("La suma de %d y %d es %d\n", unNumero, otroNumero, laSuma);
 
     return 0;
 }
+
