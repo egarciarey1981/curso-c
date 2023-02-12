@@ -13,11 +13,11 @@ int main()
 
         printf("equipo: ");
         scanf("%c", &equipo);
-        getchar();
+        getchar(); // eliminar enter
 
         printf("puntos: ");
         scanf("%d", &puntos);
-        getchar();
+        getchar(); // eliminar enter
 
         if (equipo == 'l')
             local = local + puntos;
